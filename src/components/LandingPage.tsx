@@ -96,9 +96,9 @@ export default function LandingPage() {
               {/* Logo: bigger image, minimal frame */}
               <div className="mx-auto mb-7 flex items-center justify-center">
                 <div
-                  className="rounded-[26px] p-[6px]
-                             bg-[#07163A]/18 border border-[#D7B5FF]/25 backdrop-blur-md
-                             shadow-[0_18px_55px_rgba(0,0,0,0.22)]"
+                  className="rounded-[26px] p-[3px]
+                             bg-white/0 border border-white/10 backdrop-blur-[2px]
+                             shadow-[0_6px_18px_rgba(0,0,0,0.10)]"
                 >
                   <img
                     src="/logo512.png"
