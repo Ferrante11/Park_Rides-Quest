@@ -16,11 +16,16 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
 
-      // ✅ This controls what you see in the browser tab
+      // ✅ Tab title
       { title: "Park Rides Quest" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
+
+      // ✅ Force favicon + app icons
+      { rel: "icon", href: "/favicon.ico" },
+      { rel: "apple-touch-icon", href: "/logo192.png" },
+      { rel: "manifest", href: "/manifest.json" },
     ],
   }),
 
@@ -45,4 +50,3 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
-
