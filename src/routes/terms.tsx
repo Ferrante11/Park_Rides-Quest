@@ -90,7 +90,7 @@ function TermsPage() {
 
       <H2>12. Contact</H2>
       <P>
-        <span className="text-white font-black">support@parkridesquest.app</span>
+        <span className="text-white font-black">support@parkridesquest.com</span>
       </P>
     </SiteShell>
   );
